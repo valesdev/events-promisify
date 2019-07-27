@@ -1,0 +1,28 @@
+{
+  "name": "events-promisify",
+  "version": "1.0.0",
+  "description": "Just another JavaScript EventEmitter for Promise.",
+  "main": "dist/events-promisify.es.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valesdev/events-promisify.git"
+  },
+  "author": "Yuan Chong <ychongsaytc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valesdev/events-promisify/issues"
+  },
+  "homepage": "https://github.com/valesdev/events-promisify#readme",
+  "keywords": [
+    "EventEmitter",
+    "Promise"
+  ],
+  "devDependencies": {
+    "rollup": "^1.17.0",
+    "rollup-plugin-buble": "^0.19.8",
+    "terser": "^4.1.2"
+  }
+}
