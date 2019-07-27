@@ -1,6 +1,6 @@
 {
   "name": "events-promisify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just another JavaScript EventEmitter for Promise.",
   "main": "dist/events-promisify.es.js",
   "scripts": {

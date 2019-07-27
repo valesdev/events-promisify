@@ -63,8 +63,6 @@ export default class EventEmitter {
    * @public
    */
   emit (eventName, ...args) {
-    console.debug('🔌[EE]', 'emitted:', eventName, ...args)
-
     if (!(eventName in this._events)) {
       this._events[eventName] = []
     }
