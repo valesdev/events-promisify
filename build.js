@@ -1,6 +1,6 @@
 const fs = require('fs')
 const rollup = require('rollup')
-const buble = require('rollup-plugin-buble')
+const buble = require('@rollup/plugin-buble')
 const terser = require('terser')
 const pkg = require('./package.json')
 
