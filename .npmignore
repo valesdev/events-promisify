@@ -1,6 +1,4 @@
-.DS_Store
-
-.editorconfig
-.browserslistrc
-
-/build.js
+rollup.config.js
+tsconfig.json
+jest.config.js
+/test
