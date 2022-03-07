@@ -8,8 +8,16 @@ Just another JavaScript EventEmitter for Promise.
 
 ## Installation
 
+### Node.js
+
 ```sh
-npm install --save events-promisify
+$ npm install --save events-promisify
+```
+
+### Browser via CDN
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/events-promisify/dist/index.umd.js"></script>
 ```
 
 ## Usage
